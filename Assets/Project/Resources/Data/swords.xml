@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<swords>
+  
+<sword sword_name="HomaAcumen" sword_lvl="1"> 
+    <sword_sharpening sharpening_lvl="0" sharpening_chance="100" sharpening_coast="20"  sharpening_color="000000" />
+    <sword_sharpening sharpening_lvl="1" sharpening_chance="100" sharpening_coast="20"  sharpening_color="000000" />
+    <sword_sharpening sharpening_lvl="2" sharpening_chance="100" sharpening_coast="20"  sharpening_color="000000" />
+    <sword_sharpening sharpening_lvl="3" sharpening_chance="100"  sharpening_coast="50"  sharpening_color="000000" />
+    <sword_sharpening sharpening_lvl="4" sharpening_chance="100"  sharpening_coast="70"  sharpening_color="B1B2C5" />
+    <sword_sharpening sharpening_lvl="5" sharpening_chance="100"  sharpening_coast="90"  sharpening_color="C2CFEF" />
+    <sword_sharpening sharpening_lvl="6" sharpening_chance="100"  sharpening_coast="100"  sharpening_color="8BB5DE" />
+    <sword_sharpening sharpening_lvl="7" sharpening_chance="100"  sharpening_coast="150"  sharpening_color="9AD2F5" />
+    <sword_sharpening sharpening_lvl="8" sharpening_chance="100"  sharpening_coast="200"  sharpening_color="83BEF5" />
+    <sword_sharpening sharpening_lvl="9" sharpening_chance="100"  sharpening_coast="300"  sharpening_color="62A3F3" />
+    <sword_sharpening sharpening_lvl="10" sharpening_chance="100"  sharpening_coast="500" sharpening_color="3878E3" />
+    <sword_sharpening sharpening_lvl="11" sharpening_chance="100"  sharpening_coast="1000" sharpening_color="3B7BF3" />
+    <sword_sharpening sharpening_lvl="12" sharpening_chance="100"  sharpening_coast="2000"  sharpening_color="426CED" />
+    <sword_sharpening sharpening_lvl="13" sharpening_chance="100"  sharpening_coast="3000"  sharpening_color="325DF2" />
+    <sword_sharpening sharpening_lvl="14" sharpening_chance="100"  sharpening_coast="4000"  sharpening_color="2F57EF" />
+    <sword_sharpening sharpening_lvl="15" sharpening_chance="100"  sharpening_coast="5000"  sharpening_color="2552FF" />
+    <sword_sharpening sharpening_lvl="16" sharpening_chance="100"  sharpening_coast="6000"  sharpening_color="E8564D" />
+    <sword_sharpening sharpening_lvl="17" sharpening_chance="100"  sharpening_coast="7000"  sharpening_color="FF3C30" />
+    <sword_sharpening sharpening_lvl="18" sharpening_chance="100"  sharpening_coast="8000"  sharpening_color="F42C20" />
+    <sword_sharpening sharpening_lvl="19" sharpening_chance="100"  sharpening_coast="9000"  sharpening_color="FF1C0E" />
+    <sword_sharpening sharpening_lvl="20" sharpening_chance="100"  sharpening_coast="10000"  sharpening_color="FF2100" />
+</sword>   
+  
+</swords>

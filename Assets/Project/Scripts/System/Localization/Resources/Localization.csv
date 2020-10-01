@@ -1,0 +1,71 @@
+KEY,EN,RU
+$Общее,,
+#Next,Next,Далее
+$Миссии,,
+#bodytext1,Hello,Здравствуйте
+#bodytext2,Hi,Привет
+#endtext1,GoodBye,Досвидания
+#endtext2,Bye-Bye!,Пока
+#weightstart,cargo weight:,вес груза:
+#weightend,tonns,тонн
+#Buildings,buildings,строительные материалы
+#FastTimeProducts,fast time products,скоропортящиеся продукты
+#Products,products,продукты
+#Fragile,fragile,хрупкий груз
+#Dangerous,dangerous,опасный груз
+#Regular,regular,обычный груз
+$Рация,,
+#PersonalManager,Personal manager,Персональный 
+#PersonalManagerItemCount,,Доступное количество:
+#PersonalManagerSTOHeader,,Застряли или произошла поломка? Эвакуатор дорставит вас до ближайшего сервисного центра
+#PersonalManagerSTOHelp,,Позволяет мгновенно восстаноить несерьезные повреждения грузовика
+#PersonalManagerSTOUseItem,,Применить ремкомплект
+#PersonalManagerSTOUseAction,,Вызвать эвакуатор до СТО
+#PersonalManagerGasStationHeader,,Закончилось топливо? Эвакуатор доставит вас до ближайшей заправочной станции
+#PersonalManagerGasStationHelp,,Быстрая заправкапрям на ходу!
+#PersonalManagerGasStationUseItem,,применить канистру
+#PersonalManagerGasStationUseAction,,Вызвать эвакуатор до АЗС
+#PersonalManagerMotelHeader,,Чувствуете что пора отдохнуть и восстановить силы? Такси быстро доставит вас ближайщего мотеля.
+#PersonalManagerMotelHelp,,"Ничто так не бодрит, как чашечка ароматного кофе."
+#PersonalManagerMotelUseItem,,применить кофе
+#PersonalManagerMotelUseAction,,Вызвать такси до мотеля
+$Заправка,,
+#GasStation,GAS STATION,Заправка
+#GasStationBonus,,Заправка + бонус: 
+#GasStationFromNextBonus,,До следующего бонуса осталось
+#GasStationSkipBonus,,Заправиться без бонуса
+#GasStationSpecialHeader,,Заправляйся в дороге!
+#GasStationSpecialText,,Купить 10 канистр
+$СТО,,
+#ServiceStation,SERVICE STATION,СТО
+#ServiceStationBonus,,Ремонт + Бонус
+#ServiceStationFromNextBonus,,До следующего бонуса осталось
+#ServiceStationSkipBonus,,Ремонт без бонуса
+#ServiceStationSpecialHeader,,Специальное предложение
+#ServiceStationSpecialText,,Купить 10 туллбоксов
+$Кофейня,,
+#CoffeShop,Coffe Shop,Кофейня
+#CoffeShopBonus,,Кофе + Бонус
+#CoffeShopFromNextBonus,,До следующего бонуса осталось
+#CoffeShopSkipBonus,,Кофе без бонуса
+#CoffeShopSpecialHeader,,Специальное предложение
+#CoffeShopSpecialText,,Купить 10 кофе
+$Мотель,,
+#Motel,Motel,Мотель
+#MotelHeader,,Уютная комната к вашим услугам. Желаете провести ночь и полностью восстановить силы?
+$Паром,,
+#Ferry,Ferry,Паром
+#FerryHeader,,Желаете переправиться на другую сторону?
+$Настройки,,
+#Settings,Settings,Настройки
+#KPH,KPH,км/ч
+#MPH,KPH,м/ч
+#RestorePurchases,restore purchases,восстановить покупки
+#ControlMode,Control Mode,Тип управления
+#Language,Language,Язык
+$Меню,,
+#Menu,Menu,Меню
+$Гараж,,
+#Garage,Garage,Гараж
+$Магазин,,
+#Store,Store,Магазин
