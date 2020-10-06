@@ -4,7 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class Manager : MonoBehaviour {
+public class Manager : MonoBehaviour 
+{
+    [Header("Sword parts:")]
+    public bool UseParts = false;
+    public GameObject[] SwordBlades;
+    public GameObject[] SwordCrossguards;
+    public GameObject[] SwordHilts;
+    public GameObject[] SwordPommels;
 
     [Space(15)]
     [Header("UI:")]
@@ -21,9 +28,16 @@ public class Manager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        CreateSword("HomaAcumen");
+        if (UseParts)
+            CreateSwordFromParts();
+        else
+            CreateSword("HomaAcumen");
     }
 
+    /// <summary>
+    /// Инстансинг готового меча из папки Prefabs
+    /// </summary>
+    /// <param name="swordPrefName"></param>
     public void CreateSword(string swordPrefName)
     {
         swordPref = Parse.instance.swordClass.GetByName(swordPrefName);
@@ -39,6 +53,26 @@ public class Manager : MonoBehaviour {
         SharpingChance.text = ss.sharpening_chance.ToString();
         SwordPrice.text = "+" + (ssPlus.sharpening_coast - ss.sharpening_coast).ToString();
         SwordPriceNow.text = ss.sharpening_coast.ToString();
+    }
+
+
+    /// <summary>
+    /// создание меяач из частей
+    /// </summary>
+    [ContextMenu("CreateSwordFromParts")]
+    public void CreateSwordFromParts()
+    {
+        GameObject SwordBlade = Instantiate(GetGOFromMassive(SwordBlades));
+        SwordBlade.transform.position = Vector3.zero;
+        GameObject SwordCrossguard = Instantiate(GetGOFromMassive(SwordCrossguards), SwordBlade.transform);
+        GameObject SwordHilt = Instantiate(GetGOFromMassive(SwordHilts), SwordBlade.transform);
+        GameObject SwordPommel = Instantiate(GetGOFromMassive(SwordPommels), SwordBlade.transform);
+    }
+
+    private GameObject GetGOFromMassive(GameObject[] _GObjects)
+    {
+        int rnd = Random.Range(0, _GObjects.Length);
+        return _GObjects[rnd];
     }
 
     public void CreateNextSword()
