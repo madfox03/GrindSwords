@@ -980,55 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9373258110c762545affa658a72a3e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UseParts: 1
-  SwordBlades:
-  - {fileID: 919132149155446097, guid: 3d96e4882f84ece4a8fd60fe5ba1d21b, type: 3}
-  - {fileID: 919132149155446097, guid: 08877fdee9ea7474296ceb7c5ce15c88, type: 3}
-  - {fileID: 919132149155446097, guid: 69e9e9cd50882be42b4296116d353e41, type: 3}
-  - {fileID: 919132149155446097, guid: 618fd8bc8b7aeb54aa90edbc12a06b8b, type: 3}
-  - {fileID: 919132149155446097, guid: e11fb919767125f47a4dfe4aba353123, type: 3}
-  - {fileID: 919132149155446097, guid: d946896d4f89ecd4f8807963d91a6f74, type: 3}
-  - {fileID: 919132149155446097, guid: 5d8732be95f6ba246bd9106a4829e422, type: 3}
-  - {fileID: 919132149155446097, guid: 1af8cf7e81d13044b8328887b97f1ed7, type: 3}
-  SwordCrossguards:
-  - {fileID: 919132149155446097, guid: c2a8f82d1900aa6478f58617d1f53fb6, type: 3}
-  - {fileID: 919132149155446097, guid: c0e562e00564ba34186998ee70a94075, type: 3}
-  - {fileID: 919132149155446097, guid: 5f343f5ea5207ad48a19027cb5a3a9cb, type: 3}
-  - {fileID: 919132149155446097, guid: 42f7283154b38164e8023fc6b3dbdb20, type: 3}
-  - {fileID: 919132149155446097, guid: b87cbfaefdee8f34286e03d9ab25eef1, type: 3}
-  - {fileID: 919132149155446097, guid: ff2ce3da985237a4ba708b1d6cf433d9, type: 3}
-  - {fileID: 919132149155446097, guid: 4b0936ff6093fa1469a074fc626ad626, type: 3}
-  - {fileID: 919132149155446097, guid: caa92188a7d6d694e817a89b2500dfed, type: 3}
-  - {fileID: 919132149155446097, guid: 8d434f25f156b684cb86b9a9db7e3293, type: 3}
-  - {fileID: 919132149155446097, guid: 1f664ae2a0afb04428d2e8c87e343379, type: 3}
-  - {fileID: 919132149155446097, guid: 9abb0b16856567440aa453ec686190a0, type: 3}
-  SwordHilts:
-  - {fileID: 919132149155446097, guid: 22d19036068489e47a7906738c8703e4, type: 3}
-  - {fileID: 919132149155446097, guid: b2deced97b0ab88468ad8bc03e00e0e0, type: 3}
-  - {fileID: 919132149155446097, guid: c30c7a973128eaa4f9a6a8ce3a0c887b, type: 3}
-  - {fileID: 919132149155446097, guid: ccc8c27f24c14f14ea19ef44b69e5269, type: 3}
-  - {fileID: 919132149155446097, guid: db6a2acc69191cc4783e2c456907f151, type: 3}
-  - {fileID: 919132149155446097, guid: e1c6363bb0332dc4aa54663a668729aa, type: 3}
-  - {fileID: 919132149155446097, guid: 1d5260383746f1642986bde2f0340fa0, type: 3}
-  - {fileID: 919132149155446097, guid: 77fba859e41400148ae0b527f565cec0, type: 3}
-  - {fileID: 919132149155446097, guid: e4b3e23eb306c34458ae406989200c98, type: 3}
-  - {fileID: 919132149155446097, guid: f7c35dfaa6265784f8ffde7ec637a4d9, type: 3}
-  - {fileID: 919132149155446097, guid: 8ed886dece1d17843b039f5844bd6f00, type: 3}
-  SwordPommels:
-  - {fileID: 919132149155446097, guid: 885b67232ebd9934dba3347b9202100c, type: 3}
-  - {fileID: 919132149155446097, guid: f5128098b9f5f964fb1d6b5a574488a4, type: 3}
-  - {fileID: 919132149155446097, guid: 4ff40b90721f0404fa4d16bbbde01ced, type: 3}
-  - {fileID: 919132149155446097, guid: cb67c75f28112174ea4df2561749d8e9, type: 3}
-  - {fileID: 919132149155446097, guid: 3642f4ca2a43bfc439cfda770cb06b65, type: 3}
-  - {fileID: 919132149155446097, guid: e6f47c5f9da9afc46b8c79eea9c4ab15, type: 3}
-  - {fileID: 919132149155446097, guid: 2891b9b4a82ac944fbb7f2305c106841, type: 3}
-  - {fileID: 919132149155446097, guid: 449abbda98154074ab29fddd72810a6e, type: 3}
-  - {fileID: 919132149155446097, guid: 081b2837f84ec6e40a79011254619491, type: 3}
-  - {fileID: 919132149155446097, guid: b02185ae286555542b713dcd25cd8724, type: 3}
-  - {fileID: 919132149155446097, guid: b04cfde51ad961f4fa45ad2dd81e17ab, type: 3}
-  - {fileID: 919132149155446097, guid: 4dfb629b95e548c49a68133420727d57, type: 3}
-  - {fileID: 919132149155446097, guid: deea0916b39be8d4293f7289034e062c, type: 3}
-  - {fileID: 919132149155446097, guid: 383bf07433195df4cb338ab120eb4501, type: 3}
+  UseParts: 0
   lvlValText: {fileID: 456726947}
   UIPanelBrokenSword: {fileID: 1410709278}
   PlayerMoney: {fileID: 2137041793}
@@ -1126,13 +1078,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.15953657, y: 0, z: 0, w: 0.9871921}
-  m_LocalPosition: {x: 0, y: 0.221, z: -1.71}
+  m_LocalRotation: {x: 0.080078796, y: -0, z: -0, w: 0.99678856}
+  m_LocalPosition: {x: 0, y: 0.518, z: -1.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 18.36, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.186, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,7 +1898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisablePixelLights: 1
   m_TextureSize: 512
-  m_ClipPlaneOffset: 0.11
+  m_ClipPlaneOffset: 0.2
   m_ReflectLayers:
     serializedVersion: 2
     m_Bits: 311

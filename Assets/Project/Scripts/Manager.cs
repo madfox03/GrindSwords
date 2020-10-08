@@ -6,13 +6,6 @@ using DG.Tweening;
 
 public class Manager : MonoBehaviour 
 {
-    [Header("Sword parts:")]
-    public bool UseParts = false;
-    public GameObject[] SwordBlades;
-    public GameObject[] SwordCrossguards;
-    public GameObject[] SwordHilts;
-    public GameObject[] SwordPommels;
-
     [Space(15)]
     [Header("UI:")]
     public Text lvlValText;
@@ -28,10 +21,7 @@ public class Manager : MonoBehaviour
 
     // Use this for initialization
     void Start () {
-        if (UseParts)
-            CreateSwordFromParts();
-        else
-            CreateSword("HomaAcumen");
+        CreateSword("Sword_From_Vol_1");
     }
 
     /// <summary>
@@ -55,30 +45,10 @@ public class Manager : MonoBehaviour
         SwordPriceNow.text = ss.sharpening_coast.ToString();
     }
 
-
-    /// <summary>
-    /// создание меяач из частей
-    /// </summary>
-    [ContextMenu("CreateSwordFromParts")]
-    public void CreateSwordFromParts()
-    {
-        GameObject SwordBlade = Instantiate(GetGOFromMassive(SwordBlades));
-        SwordBlade.transform.position = Vector3.zero;
-        GameObject SwordCrossguard = Instantiate(GetGOFromMassive(SwordCrossguards), SwordBlade.transform);
-        GameObject SwordHilt = Instantiate(GetGOFromMassive(SwordHilts), SwordBlade.transform);
-        GameObject SwordPommel = Instantiate(GetGOFromMassive(SwordPommels), SwordBlade.transform);
-    }
-
-    private GameObject GetGOFromMassive(GameObject[] _GObjects)
-    {
-        int rnd = Random.Range(0, _GObjects.Length);
-        return _GObjects[rnd];
-    }
-
     public void CreateNextSword()
     {
         Destroy(SwordNow);
-        CreateSword("HomaAcumen");
+        CreateSword("Sword_From_Vol_1");
         sharp_lvl = 0;
         lvlValText.text = "0";
     }
