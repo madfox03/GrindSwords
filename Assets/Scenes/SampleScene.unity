@@ -980,7 +980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9373258110c762545affa658a72a3e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UseParts: 0
   lvlValText: {fileID: 456726947}
   UIPanelBrokenSword: {fileID: 1410709278}
   PlayerMoney: {fileID: 2137041793}

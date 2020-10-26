@@ -12,7 +12,7 @@
         }
     }
 
-    //--- подгрузка всех украшений для грузовика
+    //--- подгрузка всех мечей
     private SwordCollection _swordClass;
     public SwordCollection swordClass
     {

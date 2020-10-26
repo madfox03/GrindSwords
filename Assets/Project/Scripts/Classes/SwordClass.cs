@@ -17,6 +17,9 @@ public class SwordClass
     
     [XmlElement("sword_sharpening")]
     public List<SharpeningClass> sharpening = new List<SharpeningClass>();
+
+    [XmlAttribute("sword_prefab")]
+    public GameObject swordprefab;
 }
 
 [System.Serializable]

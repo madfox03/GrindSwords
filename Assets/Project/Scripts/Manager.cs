@@ -10,6 +10,7 @@ public class Manager : MonoBehaviour
     [Header("UI:")]
     public Text lvlValText;
     public GameObject UIPanelBrokenSword;
+
     public Text PlayerMoney;
     public Text SharpingChance;
     public Text SwordPrice;
@@ -30,8 +31,9 @@ public class Manager : MonoBehaviour
     /// <param name="swordPrefName"></param>
     public void CreateSword(string swordPrefName)
     {
-        swordPref = Parse.instance.swordClass.GetByName(swordPrefName);
-        GameObject sword = Instantiate(Resources.Load<GameObject>("Prefabs/" + swordPrefName));
+        //swordPref = Parse.instance.swordClass.GetByName(swordPrefName);
+        GameObject sword = Instantiate(Resources.Load<GameObject>("Prefabs/" + swordPrefName), this.transform);
+        swordPref.swordprefab = sword;
         sword.transform.position = Vector3.zero;
         Material glowMat = sword.GetComponent<SwordMove>().RendererGlowMaterial.sharedMaterial;
         glowMat.SetFloat("_Intencity", 0);
@@ -100,7 +102,7 @@ public class Manager : MonoBehaviour
     public void RepeatSharpen()
     {
         Destroy(SwordNow);
-        CreateSword("HomaAcumen");
+        CreateSword("Sword_From_Vol_1");
         sharp_lvl = 0;
         lvlValText.text = "0";
     }
