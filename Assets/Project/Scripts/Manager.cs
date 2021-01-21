@@ -47,6 +47,27 @@ public class Manager : MonoBehaviour
         SwordPriceNow.text = ss.sharpening_coast.ToString();
     }
 
+    /*
+    //--- старая версия
+    public void CreateSword_OLD(string swordPrefName)
+    {
+        //swordPref = Parse.instance.swordClass.GetByName(swordPrefName);
+        GameObject sword = Instantiate(Resources.Load<GameObject>("Prefabs/" + swordPrefName), this.transform);
+        swordPref.swordprefab = sword;
+        sword.transform.position = Vector3.zero;
+        Material glowMat = sword.GetComponent<SwordMove>().RendererGlowMaterial.sharedMaterial;
+        glowMat.SetFloat("_Intencity", 0);
+        sharp_lvl = 0;
+        SharpeningClass ss = swordPref.sharpening.Find(x => x.sharpening_lvl == sharp_lvl);
+        SharpeningClass ssPlus = swordPref.sharpening.Find(x => x.sharpening_lvl == sharp_lvl + 1);
+        glowMat.SetColor("_Color", SharpeningClass.hexToColor(ss.sharpening_color));
+        SwordNow = sword;
+        SharpingChance.text = ss.sharpening_chance.ToString();
+        SwordPrice.text = "+" + (ssPlus.sharpening_coast - ss.sharpening_coast).ToString();
+        SwordPriceNow.text = ss.sharpening_coast.ToString();
+    }
+    */
+
     public void CreateNextSword()
     {
         Destroy(SwordNow);

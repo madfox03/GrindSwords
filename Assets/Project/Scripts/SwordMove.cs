@@ -84,7 +84,7 @@ public class SwordMove : MonoBehaviour {
 
                 Debug.Log("GetTouch");
                 angle += Input.GetTouch(0).deltaPosition.y;
-                transform.rotation *= Quaternion.AngleAxis(angle, Vector3.forward);
+                transform.rotation *= Quaternion.AngleAxis(angle, Vector3.down);
             }
 
             if (Input.GetMouseButton(0))
@@ -96,7 +96,7 @@ public class SwordMove : MonoBehaviour {
 
                 Debug.Log("GetMouseButtonDown");
                 angle = -Input.GetAxis("Mouse X") * RotationSpeed;
-                transform.rotation *= Quaternion.AngleAxis(angle, Vector3.forward);
+                transform.rotation *= Quaternion.AngleAxis(angle, Vector3.down);
             }
         }
     }
